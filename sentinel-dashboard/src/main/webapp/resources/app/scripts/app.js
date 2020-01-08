@@ -108,7 +108,8 @@ angular
       })
 
       .state('dashboard.flowV1', {
-        templateUrl: 'app/views/flow_v1.html',
+        // templateUrl: 'app/views/flow_v1.html',
+          templateUrl: 'app/views/flow_v2.html',
         url: '/flow/:app',
         controller: 'FlowControllerV1',
         resolve: {
@@ -116,7 +117,8 @@ angular
             return $ocLazyLoad.load({
               name: 'sentinelDashboardApp',
               files: [
-                'app/scripts/controllers/flow_v1.js',
+                // 'app/scripts/controllers/flow_v1.js',
+                  'app/scripts/controllers/flow_v2.js',
               ]
             });
           }]

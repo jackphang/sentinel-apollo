@@ -1,0 +1,15 @@
+版本升级问题：
+
+1.AuthorityRuleController , DegradeController, ParamFlowRuleController, SystemController,FlowControllerV2
+搜索 集成apollo-jackphang
+
+2.com.alibaba.csp.sentinel.dashboard.rule.apollo 包下所有的文件
+
+3.html页面 sidebar.html 搜索 apollo集成
+
+4.application.properties配置
+    apollo.portalUrl=http://config.tplife.com
+    apollo.token=f743530fdc15c7e43f33acd8131548bafdf87904
+    apollo.env=DEV
+    apollo.namspace=
+    apollo.clusterName=
